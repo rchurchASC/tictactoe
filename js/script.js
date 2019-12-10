@@ -1,8 +1,10 @@
-
-
-
-
-
+let playerOne = "X";
+let playerTwo = "O";
+let turns = 0;
+let end = false;
+function performLogic(buttonId, tileId) {
+    
+}
 
 
 $("#button1").click(function() {
