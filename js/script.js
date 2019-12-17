@@ -3,9 +3,12 @@ let playerTwo = "O";
 let turns = 0;
 let end = false;
 function performLogic(buttonId, tileId) {
+    $(buttonId).remove();
+    $(tileId).text(playerOne);
+}
+function go() {
     
 }
-
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
